@@ -1,7 +1,29 @@
 aid: graft-concepts
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graft-concepts.png
 name: Graft Concepts
-description: Graft Concepts is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Graft Concepts was a consumer-electronics accessories company best known for
+  the "Leverage" modular iPhone case, a latched aluminum-and-polycarbonate bumper
+  frame with interchangeable backplates that let owners swap in kickstands, bike
+  mounts, and 3D-printed backs. The company was a Y Combinator startup based in
+  the San Francisco Bay Area and was acquired by Inseego (formerly Novatel
+  Wireless) in January 2014, after which the independent product and brand were
+  wound down. This profile was surfaced by the venture-portfolio scraper and
+  added to the API Evangelist network as a stub; enrichment found no live
+  developer surface, API, SDK, or documentation for the company. The original
+  graftconcepts.com domain no longer serves the company and now resolves to a
+  parked content page, so there are no API artifacts to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/graft-concepts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,27 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Inseego (Novatel Wireless) in January 2014; no live API or developer surface. a16z attribution comes from the VC-portfolio scraper and is unverified against a live product.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Consumer Electronics
+- Mobile Accessories
+- Hardware
+- iPhone Cases
+- Y Combinator
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
