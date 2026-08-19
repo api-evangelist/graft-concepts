@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: acquired
 x-status-note: Acquired by Inseego (Novatel Wireless) in January 2014; no live API or developer surface. a16z attribution comes from the VC-portfolio scraper and is unverified against a live product.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
